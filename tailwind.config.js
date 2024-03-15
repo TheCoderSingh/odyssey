@@ -2,7 +2,14 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: "#4F7CAC",
+      },
+      backgroundImage: {
+        signup: "url('/src/assets/auth.jpg')",
+      },
+    },
   },
   plugins: [],
 };
