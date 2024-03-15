@@ -7,7 +7,7 @@ export default {
         primary: "#4F7CAC",
       },
       backgroundImage: {
-        signup: "url('/src/assets/auth.jpg')",
+        auth: "url('/src/assets/auth.jpg')",
       },
     },
   },

@@ -1,8 +1,8 @@
 const Signup = () => {
   return (
     <div className="block md:flex">
-      <div className="hidden md:block w-1/3 bg-signup h-screen bg-cover bg-center" />
-      <div className="w-full md:w-2/3 p-5 h-screen bg-signup bg-center bg-cover md:bg-none">
+      <div className="hidden md:block w-1/3 bg-auth h-screen bg-cover bg-center" />
+      <div className="w-full md:w-2/3 p-5 h-screen bg-auth bg-center bg-cover md:bg-none">
         <div className="flex justify-between items-center">
           <div>
             <h4 className="text-2xl font-bold text-white md:text-primary">
