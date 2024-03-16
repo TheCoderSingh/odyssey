@@ -5,6 +5,7 @@ export default {
     extend: {
       colors: {
         primary: "#4F7CAC",
+        secondary: "#617073",
       },
       backgroundImage: {
         auth: "url('/src/assets/auth.jpg')",
