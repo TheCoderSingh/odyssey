@@ -1,7 +1,9 @@
+import UpcomingActivityCard from "./UpcomingActivityCard";
+
 const UpcomingActivities = () => {
   return (
-    <div className="w-[80%] mx-auto mt-16">
-      <div className="md:flex gap-5 items-center">
+    <div className="w-[80%] mx-auto mt-16 font-notosans">
+      <div className="gap-5 items-center">
         <div className="md:w-[40%]">
           <div>
             <h1 className="text-3xl md:text-5xl mb-2 md:mb-4 tracking-tight font-extrabold">
@@ -12,12 +14,15 @@ const UpcomingActivities = () => {
             </h3>
           </div>
         </div>
-        <div className="w-[60%] font-roboto pl-5">
-          <div className="mt-5">
-            <a href="#" className="underline">
-              See all upcoming activities
-            </a>
-          </div>
+
+        <div className="mt-7">
+          <UpcomingActivityCard />
+        </div>
+
+        <div className="mt-7 font-roboto">
+          <a href="#" className="underline">
+            See all upcoming activities
+          </a>
         </div>
       </div>
     </div>
