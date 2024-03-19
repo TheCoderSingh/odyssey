@@ -17,6 +17,7 @@ const UpcomingActivities = () => {
 
         <div className="mt-7">
           <UpcomingActivityCard />
+          <UpcomingActivityCard />
         </div>
 
         <div className="mt-7 font-roboto">

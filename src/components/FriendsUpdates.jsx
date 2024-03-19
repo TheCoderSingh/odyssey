@@ -17,6 +17,7 @@ const FriendsUpdates = () => {
 
         <div className="mt-7">
           <FriendsUpdatesCard />
+          <FriendsUpdatesCard />
         </div>
       </div>
     </div>
